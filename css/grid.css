@@ -264,6 +264,10 @@
   flex-wrap: wrap;
 }
 
+.xs-1 {
+  width: 100%;
+}
+
 @media only screen and (min-width: 25em) {
 
   .unit-s-hidden,
@@ -399,6 +403,10 @@
     -ms-align-self: center;
     -webkit-align-self: center;
     align-self: center;
+  }
+
+  .s-1 {
+    width: 100%;
   }
 
 }
@@ -607,6 +615,14 @@
     -ms-align-self: center;
     -webkit-align-self: center;
     align-self: center;
+  }
+
+  .m-1 {
+    width: 100%;
+  }
+
+  .m-2 {
+    width: 50%;
   }
 
 }
